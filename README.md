@@ -1,5 +1,5 @@
 # React TypeScript Axios Fetch Users
-Simple demo of fetching a users from back-end in React using Axios.
+Simple demo of fetching users from back-end in React using Axios.
 
 ## Try it!
 1. Clone repo
