@@ -3,12 +3,18 @@ export interface User {
 	name: string;
 	email: string;
 	password: string;
-	accountType: number;
+	accountType: AccountType;
 }
 
 export interface NewUser {
 	name: string;
 	email: string;
 	password: string;
-	accountType: number;
+	accountType: AccountType;
+}
+
+export enum AccountType {
+	Guest,
+	User,
+	Admin
 }
